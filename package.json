@@ -1,0 +1,9 @@
+{
+  "name": "angularjs-view",
+  "description": "",
+  "version": "0.0.1",
+  "dependencies": {
+    "express":"~3.2.0"
+  },
+  "main": "./server.js"
+}
