@@ -3,19 +3,23 @@ var app = angular.module("app", ["ngRoute"]);
 app.config(function($routeProvider) {
       $routeProvider.when('/',
               {
-                templateUrl: "views/home.html",
-                controller: "HomeCtrl"
+                templateUrl: "views/dashboard.html",
+                controller: "DashboardCtrl"
+              })
+              .when('/report',{
+                templateUrl: "views/report.html",
+                controller: "ReportCtrl"
               })
 })
 
-app.controller("HomeCtrl", function($scope) {
+app.controller("DashboardCtrl", function($scope) {
       $scope.model = {
-                message: "This is my app!!!"
+                message: "Dashboard!!!"
       }
 })
 
-app.controller("Page2Ctrl", function($scope) {
+app.controller("ReportCtrl", function($scope) {
       $scope.model = {
-                message: "Page2!!!"
+                message: "Report!!!"
       }
 })
