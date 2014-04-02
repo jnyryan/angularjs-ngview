@@ -7,34 +7,34 @@ a quick app with angularjs that uses ng-view
 
     http://angularjs-ngview-quickstart.herokuapp.com/
 
-    # Setup
+# Setup
 
     Install nodejs from http://nodejs.org
 
-    Download this project and CD to it's directory
+Download this project and CD to it's directory
 
-    ``` bash
+``` bash
 
     git clone https://github.com/patchapps/angularjs-ngview.git
     cd angularjs-ngview.git
-    ```
+```
 
-    To install dependencies run the command:
+To install dependencies run the command:
 
-    ``` bash
-      npm install 
-      ```
+``` bash
+    npm install 
+```
 
-      To start the web server run
+To start the web server run
 
-      ``` bash
-        node web.js
-        ```
+``` bash
+    node web.js
+```
 
-        Browse to the application (default is http://localhost:3000)
+Browse to the application (default is http://localhost:3000)
 
 
-        ## Deploy to Heroku
+## Deploy to Heroku
 
         ``` bash
         git init
